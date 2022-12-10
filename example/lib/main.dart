@@ -35,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     exampleGradients = [
+      const RadialGradient(colors: [Colors.white, Colors.white]),
       const RadialGradient(colors: [Colors.blue, Colors.cyanAccent]),
       const RadialGradient(colors: [Colors.deepOrange, Colors.purpleAccent]),
       const RadialGradient(colors: [Colors.yellow, Colors.pinkAccent]),
