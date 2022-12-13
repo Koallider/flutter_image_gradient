@@ -2,4 +2,4 @@
 
 ### This is an example project for image_gradient Flutter package
 
-Example image is from [Lovepik.com]("https://lovepik.com/images/png-beams.html)
+Example image is from <a href="https://lovepik.com/images/png-beams.html">Lovepik.com</a>
