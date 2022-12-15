@@ -1,6 +1,6 @@
 name: image_gradient
-description: A Flutter package used to apply gradient to images.
-version: 0.0.1
+description: A Flutter package used to apply gradient to images. Best results with grayscale images.
+version: 0.0.2-SNAPSHOT
 homepage: https://github.com/Koallider/image_gradient_flutter
 
 environment:
