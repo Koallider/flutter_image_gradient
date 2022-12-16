@@ -26,3 +26,29 @@ ImageGradient(
   gradient: const RadialGradient(colors: [Colors.deepOrange, Colors.purpleAccent]),
 )
 ```
+
+## Alternative constructors
+
+### Linear Gradient
+```dart
+ImageGradient.linear(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
+)
+```
+
+### Radial Gradient
+```dart
+ImageGradient.radial(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
+)
+```
+
+### Sweep Gradient
+```dart
+ImageGradient.sweep(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
+)
+```
