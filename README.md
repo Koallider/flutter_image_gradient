@@ -15,7 +15,7 @@ The best usecase is to apply colors to grayscale images. For example light beams
 ```yaml
 dependencies:
   ...
-  image_gradient: ^0.0.1
+  image_gradient: ^0.0.2
 ```
 
 ## Usage
@@ -24,5 +24,31 @@ dependencies:
 ImageGradient(
   image: Image.asset("assets/light.png"),
   gradient: const RadialGradient(colors: [Colors.deepOrange, Colors.purpleAccent]),
+)
+```
+
+## Alternative constructors
+
+### Linear Gradient
+```dart
+ImageGradient.linear(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
+)
+```
+
+### Radial Gradient
+```dart
+ImageGradient.radial(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
+)
+```
+
+### Sweep Gradient
+```dart
+ImageGradient.sweep(
+  image: Image.asset("assets/light.png"),
+  colors: const [Colors.yellow, Colors.pinkAccent],
 )
 ```
