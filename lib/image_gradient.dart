@@ -14,6 +14,7 @@ class ImageGradient extends StatelessWidget {
 
   const ImageGradient({super.key, required this.image, required this.gradient});
 
+  /// An alternative constructor to apply a linear gradient to the image.
   ImageGradient.linear({
     super.key,
     required this.image,
@@ -22,6 +23,7 @@ class ImageGradient extends StatelessWidget {
     Alignment end = Alignment.centerRight,
   }) : gradient = LinearGradient(colors: colors, begin: begin, end: end);
 
+  /// An alternative constructor to apply a radial gradient to the image.
   ImageGradient.radial(
       {super.key,
       required this.image,
@@ -31,6 +33,7 @@ class ImageGradient extends StatelessWidget {
       : gradient =
             RadialGradient(colors: colors, center: center, radius: radius);
 
+  /// An alternative constructor to apply a sweep gradient to the image.
   ImageGradient.sweep({
     super.key,
     required this.image,

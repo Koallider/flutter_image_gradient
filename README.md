@@ -15,7 +15,7 @@ The best usecase is to apply colors to grayscale images. For example light beams
 ```yaml
 dependencies:
   ...
-  image_gradient: ^0.0.1
+  image_gradient: ^0.0.2
 ```
 
 ## Usage
